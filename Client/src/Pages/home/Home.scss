@@ -1,0 +1,26 @@
+.outerWrap {
+  background: var(--greydark);
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+}
+
+.App {
+  height: 100vh;
+  background: var(--greylight);
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+.musicControls {
+  background: var(--greylighter);
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 10;
+}
+*/

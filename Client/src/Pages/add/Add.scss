@@ -1,0 +1,107 @@
+.add {
+  width: 100vw;
+  height: 100vh;
+  background: var(--greylight);
+  position: relative;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    form {
+      .section {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+        width: 100%;
+      }
+
+      .file {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+      }
+
+      width: 300px;
+      height: 300px;
+      padding: 30px;
+      border-radius: 5px;
+      background: var(--greylight);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      input {
+        height: 40px;
+        border-radius: 5px;
+        background: var(--navText);
+        padding-left: 10px;
+        margin: 8px;
+        color: var(--greylight);
+        width: 200px;
+
+        &::placeholder {
+          color: rgb(88, 88, 88);
+        }
+      }
+
+      .fileselect {
+        height: 40px;
+        border-radius: 5px;
+        background: var(--greylight);
+        padding-left: 10px;
+        margin: 8px;
+        color: var(--greylight);
+        width: 200px;
+      }
+
+      .loginButton {
+        height: 60px;
+        width: 100px;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        font-size: 18px;
+        background-color: var(--primaryClr);
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+      }
+
+      .uploadButton {
+        height: 60px;
+        width: 100px;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        font-size: 18px;
+        background-color: rgb(89, 156, 89);
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+      }
+
+      span {
+        color: lightgrey;
+        b {
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

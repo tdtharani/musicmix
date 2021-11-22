@@ -1,0 +1,122 @@
+.update {
+  width: 100vw;
+  height: 100vh;
+  background: var(--greylight);
+  position: relative;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    form {
+      h3 {
+        margin-bottom: 30px;
+      }
+
+      .loginButton {
+        height: 60px;
+        width: 100px;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        font-size: 18px;
+        background-color: var(--primaryClr);
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+      }
+
+      .uploadButton {
+        height: 60px;
+        width: 100px;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        font-size: 18px;
+        background-color: rgb(89, 156, 89);
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+      }
+
+      .section {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+        width: 100%;
+      }
+
+      .file {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+      }
+
+      width: 300px;
+      height: 300px;
+      padding: 30px;
+      border-radius: 5px;
+      background: var(--greylight);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      input {
+        height: 40px;
+        border-radius: 5px;
+        background: var(--grey);
+        padding-left: 10px;
+        margin: 8px;
+        color: white;
+
+        &::placeholder {
+          color: rgb(167, 164, 164);
+        }
+      }
+
+      .section {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+        width: 100%;
+      }
+
+      .file {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+      }
+
+      button {
+        height: 60px;
+        width: 200px;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        font-size: 18px;
+        background-color: var(--primaryClr);
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+      }
+
+      span {
+        color: lightgrey;
+        b {
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

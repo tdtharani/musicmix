@@ -1,0 +1,35 @@
+.hero {
+  position: relative;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.heroText {
+  left: 780px;
+  color: white;
+
+  .mainText {
+    position: absolute;
+    font-size: 175px;
+    left: 780px;
+  }
+
+  .first {
+    bottom: 490px;
+  }
+
+  .second {
+    bottom: 320px;
+  }
+
+  .third {
+    position: absolute;
+    bottom: 270px;
+    left: 790px;
+    font-size: 40px;
+    font-weight: 300;
+  }
+}
